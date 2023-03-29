@@ -9,5 +9,6 @@ Create a virtual environment to install packages:
 install the 3 packages locally (in root dir): `pip install -e hello-world` (and also for hello-world-json and hello-world-uppercase-output)
 
 # Use
-
+Each plugin for an outputer should have this entry point: `hello_world.output`
+Once every plugin/ package is installed (locally), one just call e.g. `hello-world -outputer json` to choose json as outputer.
 
